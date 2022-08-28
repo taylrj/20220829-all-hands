@@ -12,6 +12,9 @@ import {
   Notes,
 } from 'spectacle'
 
+// component
+import DrawResult from '../components/draw'
+
 const SocialEngineeringAttack = () => (
   <>
     <Intro 
@@ -61,6 +64,9 @@ const SocialEngineeringAttack = () => (
     <Iframe
       source="https://phishingquiz.withgoogle.com/?hl=zh-TW"
     />
+    <Slide backgroundColor="backgroundColor">
+      <DrawResult />
+    </Slide>
     <AppearUnorderItems
       title="網路釣魚的目的是什麼？"
       items={[

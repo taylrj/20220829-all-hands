@@ -8,9 +8,8 @@ import React from 'react'
 import {
   FlexBox,
   Heading,
-  Slide,
   Notes,
-} from 'spectacle';
+} from 'spectacle'
 
 const Slides = () => (
   <>
