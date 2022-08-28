@@ -19,7 +19,7 @@ const AppearOrderItems = ({ slide=true, title, items, note }) => {
     return appearOrderList 
   }
   return (
-    <Slide>
+    <Slide backgroundColor="backgroundColor">
       {title && (
         <Heading margin="0px" fontSize="48px">
           {title}

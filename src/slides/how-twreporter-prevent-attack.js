@@ -38,7 +38,7 @@ const HowTwReporterPreventAttack = () => (
       source={"https://www.cloudflare.com/img/learning/what-is-cloudflare/with-cloudflare.svg"} 
       title="報導者網站如何防護 DDoS 攻擊？（續）"
     />
-    <Slide>
+    <Slide backgroundColor="backgroundColor">
       <FlexBox height="100%" flexDirection="column">
         <Box marginBottom="50px">
           <Image 

@@ -1,7 +1,8 @@
 export default {
   colors: {
-    primary: 'white',
-    secondary: 'gray'
+    primary: 'black',
+    secondary: 'black',
+    backgroundColor: '#f1f1f1f1'
   },
   fonts: {
     header: 'merriweather, "Noto Serif TC", serif',

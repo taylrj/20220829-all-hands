@@ -11,7 +11,7 @@ import {
 
 const Timeline = () => {
   return (
-    <Slide>
+    <Slide backgroundColor="backgroundColor">
       <iframe src="https://codesandbox.io/embed/tender-spence-3x6vz0?fontsize=14&hidenavigation=1&theme=dark&view=preview"
         width="100%"
         height="95%"

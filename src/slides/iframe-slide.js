@@ -8,7 +8,7 @@ const Iframe = ({ width="100%", height="95%", title="", source, note }) => {
     return
   }
   return (
-    <Slide>
+    <Slide backgroundColor="backgroundColor">
       <iframe
         width={width}
         height={height}

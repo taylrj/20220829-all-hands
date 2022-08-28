@@ -19,7 +19,7 @@ const AppearUnOrderItems = ({ slide=true, title, items, note }) => {
     return appearUnOrderList 
   }
   return (
-    <Slide>
+    <Slide backgroundColor="backgroundColor">
       {title && (
         <Heading margin="0px" fontSize="48px">
           {title}

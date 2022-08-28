@@ -7,7 +7,7 @@ const ImageWithTitle = ({
   height = 'auto',
   note 
 }) => (
-  <Slide>
+  <Slide backgroundColor="backgroundColor">
     {title && (
       <Heading margin="0px" fontSize="48px">
         {title}

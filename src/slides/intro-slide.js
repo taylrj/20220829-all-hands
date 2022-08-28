@@ -8,7 +8,7 @@ import {
 } from 'spectacle'
 
 const Intro = ({ title, subtitle, note }) => ( 
-  <Slide>
+  <Slide backgroundColor="backgroundColor">
     <FlexBox height="100%" flexDirection="column">
       <Heading margin="0px" fontSize="84px">
         {title} 
